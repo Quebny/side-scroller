@@ -5,7 +5,7 @@ class Bg {
         this.y = 0;
         this.w = width;
         this.h = height;
-        this.speed = 30;
+        this.speed = 8;
     }
 
     draw(){
