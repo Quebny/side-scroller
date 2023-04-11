@@ -10,6 +10,7 @@ class Bg {
 
     draw(){
         image(this.img, this.x, this.y, this.w, this.h);
+
     }
 
     scroll(){
@@ -17,5 +18,6 @@ class Bg {
         if (this.x <= -width){
             this.x = width;
         }
+
     }
 }
